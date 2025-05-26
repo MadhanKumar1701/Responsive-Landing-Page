@@ -28,7 +28,7 @@ This is a professional, mobile-friendly responsive landing page created using on
 
 ## 🖼️ Screenshot
 
-![Landing Page Screenshot](screenshot.png)
+![Landing Page Screenshot](Screenshot.png)
 
 ## 🧪 How to Run
 
