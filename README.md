@@ -37,10 +37,6 @@ This is a professional, mobile-friendly responsive landing page created using on
    OR  
    Run with **Live Server** in VS Code for instant preview and auto-refresh.
 
-## 🚀 Live Demo
-
-You can view the page live here:  
-👉https://madhankumar1701.github.io/Responsive-Landing-Page/
 
 ## 📂 Folder Structure
 
