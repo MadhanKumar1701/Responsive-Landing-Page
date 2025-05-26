@@ -49,7 +49,7 @@ You can view the page live here:
 ├── index.html
 ├── style.css
 ├── images/
-├── Screenshot.png
+├── screenshot.png
 └── README.md
 ```
 
