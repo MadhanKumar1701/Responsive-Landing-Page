@@ -1,0 +1,341 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #0a0a0a;
+  color: #eee;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: #111;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #ff4500;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #eee;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.btn:hover {
+  background-color: #ff4500;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: #ff4500;
+  color: #fff !important;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e03e00;
+}
+
+/* Mobile menu toggle */
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #ff4500;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('images/iqoo-neo12-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 140px 20px 120px;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+}
+
+.hero h1 span {
+  color: #ff4500;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Features Section */
+.features {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2.4rem;
+  margin-bottom: 40px;
+  color: #ff4500;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.feature-card {
+  background-color: #1a1a1a;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 69, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-card h3 {
+  margin-bottom: 15px;
+  color: #ff4500;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Specs Section */
+.specs {
+  padding: 60px 0;
+  color: #eee;
+}
+
+.specs h2 {
+  font-size: 2.4rem;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #ff4500;
+}
+
+.specs table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 69, 0, 0.3);
+}
+
+.specs th, .specs td {
+  padding: 15px 20px;
+  border-bottom: 1px solid #333;
+  text-align: left;
+}
+
+.specs th {
+  background-color: #ff4500;
+  color: #fff;
+  font-weight: 700;
+}
+
+.specs tr:last-child td {
+  border-bottom: none;
+}
+
+/* Reviews Section */
+.reviews {
+  padding: 60px 0;
+  background-color: #111;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 2.4rem;
+  margin-bottom: 40px;
+  color: #ff4500;
+}
+
+.review-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.review-card {
+  background-color: #1a1a1a;
+  padding: 30px 25px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(255, 69, 0, 0.3);
+  color: #ccc;
+  font-style: italic;
+  position: relative;
+}
+
+.review-card h4 {
+  margin-top: 20px;
+  font-weight: 700;
+  color: #ff4500;
+  font-style: normal;
+}
+
+/* Purchase Section */
+.purchase {
+  padding: 60px 0;
+  text-align: center;
+  color: #eee;
+}
+
+.purchase h2 {
+  font-size: 2.6rem;
+  margin-bottom: 25px;
+  color: #ff4500;
+}
+
+.buy-btn {
+  font-size: 1.3rem;
+  padding: 15px 40px;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  padding: 25px 0;
+  color: #777;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: #ff4500;
+  font-size: 1.5rem;
+  margin-left: 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #e03e00;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    background-color: #111;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    width: 200px;
+    border-radius: 8px;
+    display: none;
+  }
+
+  nav ul.nav-active {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .review-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .specs table,
+  .specs th,
+  .specs td {
+    font-size: 0.9rem;
+  }
+}

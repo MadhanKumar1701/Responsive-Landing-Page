@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>iQOO Neo 12 Gaming Edition</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">iQOO</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#specs">Specs</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#purchase" class="btn">Buy Now</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content container">
+      <h1>Unleash Pro-Level Gaming with the New <span>iQOO Neo 12 Gaming Edition</span></h1>
+      <p>Powered by Snapdragon 8 Gen 3+, 165Hz AMOLED Display & Advanced Liquid Cooling</p>
+      <a href="#purchase" class="btn">Pre-Order Now</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features container" id="features">
+    <h2>Features</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>Snapdragon 8 Gen 3+</h3>
+        <p>Next-gen speed for lag-free gaming performance.</p>
+      </div>
+      <div class="feature-card">
+        <h3>165Hz AMOLED Display</h3>
+        <p>Ultra-smooth visuals with stunning HDR10+ support.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Advanced Liquid Cooling</h3>
+        <p>Stay cool during marathon gaming sessions.</p>
+      </div>
+      <div class="feature-card">
+        <h3>5000mAh Battery</h3>
+        <p>Long-lasting power with 120W fast charging.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specs Section -->
+  <section class="specs container" id="specs">
+    <h2>Technical Specifications</h2>
+    <table>
+      <tbody>
+        <tr><th>Processor</th><td>Snapdragon 8 Gen 3+</td></tr>
+        <tr><th>Display</th><td>6.78” 165Hz AMOLED, HDR10+</td></tr>
+        <tr><th>RAM</th><td>12GB / 16GB LPDDR5X</td></tr>
+        <tr><th>Storage</th><td>256GB / 512GB UFS 4.0</td></tr>
+        <tr><th>Battery</th><td>5000mAh, 120W fast charging</td></tr>
+        <tr><th>Cooling</th><td>Advanced Liquid Cooling System</td></tr>
+        <tr><th>OS</th><td>Android 14, OriginOS 3.0</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews container" id="reviews">
+    <h2>What Gamers Say</h2>
+    <div class="review-cards">
+      <div class="review-card">
+        <p>“The Neo 12 Gaming Edition is an absolute beast — buttery smooth gameplay and no heating issues!”</p>
+        <h4>- Alex M.</h4>
+      </div>
+      <div class="review-card">
+        <p>“I love the vibrant display and ultra-fast charging. Perfect for marathon gaming sessions.”</p>
+        <h4>- Sara L.</h4>
+      </div>
+      <div class="review-card">
+        <p>“Best gaming phone I've used. The cooling system really makes a difference!”</p>
+        <h4>- Michael R.</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Purchase Section -->
+  <section class="purchase container" id="purchase">
+    <h2>Get Your iQOO Neo 12 Gaming Edition Now</h2>
+    <a href="#" class="btn buy-btn">Pre-Order Today</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2025 iQOO. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Instagram" class="social-icon">📸</a>
+        <a href="#" aria-label="Twitter" class="social-icon">🐦</a>
+        <a href="#" aria-label="YouTube" class="social-icon">▶️</a>
+        <a href="#" aria-label="Discord" class="social-icon">💬</a>
+      </div>
+    </div>
+  </footer>
+
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href'))
+        .scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
+
+</body>
+</html>
