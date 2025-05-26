@@ -40,7 +40,7 @@ This is a professional, mobile-friendly responsive landing page created using on
 ## 🚀 Live Demo
 
 You can view the page live here:  
-👉 https://yourusername.github.io/responsive-landing-page-task-1/
+👉[ https://yourusername.github.io/responsive-landing-page-task-1/](https://madhankumar1701.github.io/Responsive-Landing-Page/)
 
 ## 📂 Folder Structure
 
@@ -57,7 +57,7 @@ You can view the page live here:
 
 ## 🙋‍♂️ Author
 
-- **Intern Name:** [Your Full Name]  
+- **Intern Name:** M.Madhan Kumar  
 - **Internship Title:** Web Development Intern  
 - **Year:** 2025
 
